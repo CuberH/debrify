@@ -1564,27 +1564,24 @@ class _MainPageState extends State<MainPage> with TickerProviderStateMixin {
   ];
 
   final List<String> _titles = [
-    'Home (deprecated)', // 0: old board, hidden from nav (index kept as a slot)
-    'Playlist',
-    'Downloads',
-    'Debrify TV',
-    'Real Debrid',
-    'Torbox',
-    'PikPak',
-    'Addons',
-    'Settings',
-    'Stremio TV',
-    'WebDAV',
-    'Premiumize',
-    'AllDebrid',
-    'IPTV',
-    'YouTube',
-    'Home', // 15: the Stremio-style board — now THE Home (old index-0 Home is
-    // deprecated). Built on demand in _buildPage as SearchScreen().
-    'Cloud', // 16: consolidated cloud-provider hub (RD/Torbox/PikPak/…/WebDAV)
-    'Search', // 17: dedicated search tab (TV + sidebar layouts)
-    'Discover', // 18: source-dropdown browser (Continue Watching / Trakt / …)
-    'Calendar', // 19: Trakt/Simkl calendar (visible when either is connected)
+    '首页 (已弃用)', // 0
+    '播放列表', // 1: Playlist
+    '下载管理', // 2: Downloads
+    'Debrify 电视', // 3: Debrify TV
+    'Real Debrid', // 4
+    'Torbox', // 5
+    'PikPak', // 6
+    '插件扩展', // 7: Addons
+    '系统设置', // 8: Settings
+    'Stremio 电视', // 9: Stremio TV
+    'WebDAV 网盘', // 10
+    'Premiumize', // 11
+    'AllDebrid', // 12
+    '网络电视 (IPTV)', // 13
+    'YouTube', // 14
+    '首页', // 15: Home
+    '云盘聚合', // 16: Cloud
+    '全网搜索', // 17: Search
   ];
 
   final List<IconData> _icons = [
